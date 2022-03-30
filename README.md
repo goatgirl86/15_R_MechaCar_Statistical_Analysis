@@ -92,7 +92,7 @@ T-Test Output for Lot3
 5.	Knowing that Lot 3 failed the Suspension Coil Variance Test and also has statistical differences in its PSI, I would suggest that AutosRUs stop production on Lot 3 and ensure safety testing is done prior to releasing any Lot 3 vehicles for sale to consumers.  
 
 
-## Deliverable Four: Study Design for MechaCar vs Competition
+## Deliverable 4: Study Design for MechaCar vs Competition
 
 There are a few tests I would recommend:
 
