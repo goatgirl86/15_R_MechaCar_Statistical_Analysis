@@ -3,7 +3,7 @@
 ## Relevant Folders and/or Files
 -	Folder - Challenge: MechaCar_Challenge
 -	MechaChar_Challenge.R
--	-MechaCar_mpg.csv
+-	MechaCar_mpg.csv
 -	Suspension_Coil.csv
 
 ## Project Overview
@@ -36,7 +36,7 @@ Statistical Output for Mutilpe Linear Regression analysis on MPG.
 ### Linear Regression Conclusions
 1. vehicle_length and ground_clearance both provide non-random variance to MPG values (as noted by Pr(>|t|) less than 0.05).  These variables would have a statistical impact on MPG.
 2. The slope of the linear model would not be considered zero because the R-squared values suggest a moderate to strong relationship between MPG ad at least one of the variable (0.7149 for Multiple R-squared and 0.6825 for Adjusted R-squared).
-3. I would not say that this linear model effectively predicts MechaCar’s prototypes.  Statical significance on the intercept could mean that other statistically significant variables are not included in the analysis, or the current significant variables need to be scaled or transformed for better predictive power.  A small sample size of just 50 could also result in overfitting of the model. 
+3. I would say that this linear model does NOT effectively predicts MechaCar’s prototypes.  Statical significance on the intercept could mean that other statistically significant variables are not included in the analysis, or the current significant variables need to be scaled or transformed for better predictive power.  A small sample size of just 50 could also result in overfitting of the model. 
 
 
 ## Deliverable 2: Summary Statistics on Suspension Coils
@@ -85,10 +85,10 @@ T-Test Output for Lot3
 
 
 ### T-Test Conclusions
-1.	All Lot Numbers: With a p-value of 0.06 (greater than 0.05) the test suggests there is no statistical difference in the PSI between vehicles.  We cannot reject the null hypothesis that differences in PSI are due to random chance.
-2.	Lot 1: With a p-value of 1 (greater than 0.05) the test suggests there is no statistical difference in the PSI between vehicles.  We cannot reject the null hypothesis that differences in PSI are due to random chance.
-3.	Lot 2: With a p-value of 0.6072 (greater than 0.05) the test suggests there is no statistical difference in the PSI between vehicles.  We cannot reject the null hypothesis that differences in PSI are due to random chance.
-4.	Lot 3: With a p-value of 0.04168 (less than 0.05) the test suggests there is a statistical difference in the PSI between vehicles.  We can reject the null hypothesis and accept the alternative hypothesis that differences in PSI are not due to random chance.
+1.	All Lot Numbers: With a p-value of 0.06 (greater than 0.05) the test suggests there is no statistical difference in the PSI between vehicles. Differences in PSI are likely due to random chance.
+2.	Lot 1: With a p-value of 1 (greater than 0.05) the test suggests there is no statistical difference in the PSI between vehicles. Differences in PSI are likely due to random chance.
+3.	Lot 2: With a p-value of 0.6072 (greater than 0.05) the test suggests there is no statistical difference in the PSI between vehicles. Differences in PSI are likely due to random chance.
+4.	Lot 3: With a p-value of 0.04168 (less than 0.05) the test suggests there is a statistical difference in the PSI between vehicles.  We can reject the null hypothesis and accept the alternative hypothesis that differences in PSI are NOT due to random chance.
 5.	Knowing that Lot 3 failed the Suspension Coil Variance Test and also has statistical differences in its PSI, I would suggest that AutosRUs stop production on Lot 3 and ensure safety testing is done prior to releasing any Lot 3 vehicles for sale to consumers.  
 
 
