@@ -9,7 +9,7 @@
 ## Project Overview
 
 ### Purpose
-The purpose of this challenge was to help “AutosRUs” use statistics and hypothesis testing to analyze a series of production data for their new “MechaCar” prototype.  
+The purpose of this challenge was use R/RScript to help “AutosRUs” use statistics and hypothesis testing to analyze a series of production data for their new “MechaCar” prototype.  
 
 ### Data Analyzed
 -	Ficticious vehicle data from the “MechaChar”: vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, AWD, mpg
