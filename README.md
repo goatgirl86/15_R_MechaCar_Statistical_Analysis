@@ -102,7 +102,7 @@ There are a few tests I would recommend:
 -	Statistical Test Performed - Two Sample T-Test if MechaCar is being compared to only one competitor. One-Way ANOVA if there are two or more competitors.  Both of these tests assess differences in means between two or more populations. I like this test because some consumers may specifically be looking vehicle cost (and potential need for financial).
 -	Data Needed - Vehicle costs from different competitors 
 
-### Test TWo
+### Test Two
 -	Metrics Tested - Vehicle Cost and Financing Rates by Competitor 
 -	Hypotheses - Null: No difference in average vehicle cost or financing rates between MechaCar and competitor(s), Alternate: There is a difference.
 -	Statistical Test Performed - Two-Way ANOVA.  This test can compare multiple independent variables (in this case vehicle type and competitor). I like this test because it elaborates on Test One by adding financing to the equation.  
