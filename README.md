@@ -1,1 +1,1 @@
-# 15_R_MechaCar_Statistical_Analysis
+# MechaCar_Statistical_Analysis
