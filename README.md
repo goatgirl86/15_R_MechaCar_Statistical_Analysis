@@ -88,7 +88,7 @@ T-Test Output for Lot3
 1.	All Lot Numbers: With a p-value of 0.06 (greater than 0.05) the test suggests there is no statistical difference in the PSI between vehicles. Differences in PSI are likely due to random chance.
 2.	Lot 1: With a p-value of 1 (greater than 0.05) the test suggests there is no statistical difference in the PSI between vehicles. Differences in PSI are likely due to random chance.
 3.	Lot 2: With a p-value of 0.6072 (greater than 0.05) the test suggests there is no statistical difference in the PSI between vehicles. Differences in PSI are likely due to random chance.
-4.	Lot 3: With a p-value of 0.04168 (less than 0.05) the test suggests there is a statistical difference in the PSI between vehicles.  We can reject the null hypothesis and accept the alternate htypothesis that differences in PSI are NOT due to random chance.
+4.	Lot 3: With a p-value of 0.04168 (less than 0.05) the test suggests there is a statistical difference in the PSI between vehicles.  We can reject the null hypothesis and accept the alternate hypothesis that differences in PSI are NOT due to random chance.
 5.	Knowing that Lot 3 failed the Suspension Coil Variance Test and also has statistical differences in its PSI, I would suggest that AutosRUs stop production on Lot 3 and ensure safety testing is done prior to releasing any Lot 3 vehicles for sale to consumers.  
 
 
