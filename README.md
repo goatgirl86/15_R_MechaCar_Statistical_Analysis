@@ -9,11 +9,11 @@
 ## Project Overview
 
 ### Purpose
-The purpose of this challenge was to help “AutosRUs” use statistics, and hypothesis testing to analyze a series of production data for their new “MechaCar” prototype.  
+The purpose of this challenge was to help “AutosRUs” use statistics and hypothesis testing to analyze a series of production data for their new “MechaCar” prototype.  
 
 ### Data Analyzed
--	Ficticious automotive data from the “MechaChar”: vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, AWD, mpg
--	Ficticiou suspension coil data: VehicleID, Manufacturing_Lot, PSI
+-	Ficticious vehicle data from the “MechaChar”: vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, AWD, mpg
+-	Ficticious suspension coil data from "MechaChar": VehicleID, Manufacturing_Lot, PSI
 
 ### Deliverables 
 The deliverables for this assignment were:
@@ -36,7 +36,7 @@ Statistical Output for Mutilpe Linear Regression analysis on MPG.
 ### Linear Regression Conclusions
 1. vehicle_length and ground_clearance both provide non-random variance to MPG values (as noted by Pr(>|t|) less than 0.05).  These variables would have a statistical impact on MPG.
 2. The slope of the linear model would not be considered zero because the R-squared values suggest a moderate to strong relationship between MPG ad at least one of the variable (0.7149 for Multiple R-squared and 0.6825 for Adjusted R-squared).
-3. I would say that this linear model does NOT effectively predicts MechaCar’s prototypes.  Statical significance on the intercept could mean that other statistically significant variables are not included in the analysis, or the current significant variables need to be scaled or transformed for better predictive power.  A small sample size of just 50 could also result in overfitting of the model. 
+3. I would say that this linear model does NOT effectively predicts MechaCar’s prototypes.  Statical significance on the intercept could mean that other statistically significant variables are not included in the analysis, or the current significant variables need to be scaled or transformed for better predictive power.  A small sample size of just 50 vehicles could also result in overfitting of the model. 
 
 
 ## Deliverable 2: Summary Statistics on Suspension Coils
@@ -99,28 +99,34 @@ There are a few tests I would recommend:
 ### Test One
 -	Metrics Tested - Vehicle Cost by Competitor 
 -	Hypotheses - Null: No difference in average vehicle cost between MechaCar and competitor(s), Alternative: There is a difference.
--	Statistical Test Performed - Two Sample T-Test if MechaCar is being compared to only one competitor. One-Way ANOVA if there are two or more competitors.  Both of these tests assess differences in means between two different populations. 
+-	Statistical Test Performed - Two Sample T-Test if MechaCar is being compared to only one competitor. One-Way ANOVA if there are two or more competitors.  Both of these tests assess differences in means between two or more populations. I like this test because some consumers may specifically be looking vehicle cost (and potential need for financial).
 -	Data Needed - Vehicle costs from different competitors 
 
-### Test Two
--	Metrics Tested - Miles per Gallon (MPG) by Vehicle Type (sedan, truck, SUV) and Competitor
--	Hypotheses - Null: No difference in average vehicle mileage by vehicle type or competitors, Alternative: There is a difference.
--	Statistical Test Performed - Two-Way ANOVA.  This test can compare multiple independent variables.
--	Data Needed - MPG and vehicle types from different competitors 
+### Test TWo
+-	Metrics Tested - Vehicle Cost and Financing Rates by Competitor 
+-	Hypotheses - Null: No difference in average vehicle cost or financing rates between MechaCar and competitor(s), Alternative: There is a difference.
+-	Statistical Test Performed - Two-Way ANOVA.  This test can compare multiple independent variables (in this case vehicle type and competitor). I like this test because it elaborates on Test One by adding financing to the equation.  
+-	Data Needed - Vehicle costs and financing rates from different competitors 
 
 ### Test Three
--	Metrics Tested - Frequency of Transmission Type (AWD, 4-Wheel Drive, Front-Wheel Drive) by Competitor
--	Hypotheses - Null: No difference in number of each type of transmission-type between competitors, Alternative: There is a difference.
--	Statistical Test Performed – Chi Squared Test.  This test can compare frequencies of categorical data.
--	Data Needed – Numbers of vehicles with each transmission type for each competitor 
+-	Metrics Tested - Miles per Gallon (MPG) by Vehicle Type (sedan, truck, SUV) and Competitor
+-	Hypotheses - Null: No difference in average vehicle mileage by vehicle type or competitors, Alternative: There is a difference.
+-	Statistical Test Performed - Two-Way ANOVA.  This test can compare multiple independent variables (in this case vehicle type and competitor). I like this test because some consumers may specifically be looking for for a fuel efficient, family vehicle.
+-	Data Needed - MPG and vehicle types from different competitors 
 
 ### Test Four
--	Metrics Tested - Frequency of Used vs New Vehicles in Inventory by Competitor 
--	Hypotheses - Null: No difference in number of used and new cars between competitors, Alternative: There is a difference.
--	Statistical Test Performed – Chi Squared Test.  This test can compare frequencies of categorical data.
--	Data Needed – Numbers of vehicles that are used vs new for each competitor 
+-	Metrics Tested - Frequency of Transmission Type (AWD, 4-Wheel Drive, Front-Wheel Drive) by Competitor
+-	Hypotheses - Null: No difference in number of each transmission-type between competitors, Alternative: There is a difference.
+-	Statistical Test Performed – Chi Squared Test.  This test can compare frequencies of categorical data.  I like this test because some consumers may specifically be looking for an AWD or 4-wheel drive vehicle.
+-	Data Needed – Numbers of vehicles with each transmission type for each competitor 
 
 ### Test Five
+-	Metrics Tested - Frequency of Used vs New Vehicles in Inventory by Competitor 
+-	Hypotheses - Null: No difference in number of used and new cars between competitors, Alternative: There is a difference.
+-	Statistical Test Performed – Chi Squared Test.  This test can compare frequencies of categorical data. I like this test because some consumers may specifically be looking for an used vehicle.
+-	Data Needed – Numbers of vehicles that are used vs new for each competitor 
+
+### Test Six
 -	Metrics Tested - Customer Rating vs Vehicle Cost, Maintenance Benefits (free oil changes), ratio of new to used cars on the lot, and safety ratings for each Competitor
 -	Hypotheses - Null: No correlation between variables, Alternative: There is a correlation between at least two of the variables
 -	Statistical Test Performed – Correlation Matrix.  This test can determine the strength of correlation (if any) between multiple variables.  Can be used to determine the need for additional statistical tests.  
