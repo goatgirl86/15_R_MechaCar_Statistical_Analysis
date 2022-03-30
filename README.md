@@ -1,10 +1,10 @@
 # 15_R_MechaCar_Statistical_Analysis
 
 ## Relevant Folders and/or Files
--	Folder - Challenge: MechaCar_Challenge
-	  	MechaChar_Challenge.R
-      MechaCar_mpg.csv
-      Suspension_Coil.csv
+- Folder - Challenge: MechaCar_Challenge
+	- MechaChar_Challenge.R
+	- MechaCar_mpg.csv
+	- Suspension_Coil.csv
 
 ## Project Overview
 
