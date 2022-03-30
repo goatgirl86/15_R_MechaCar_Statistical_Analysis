@@ -2,9 +2,9 @@
 
 ## Relevant Folders and/or Files
 -	Folder - Challenge: MechaCar_Challenge
--	MechaChar_Challenge.R
--	MechaCar_mpg.csv
--	Suspension_Coil.csv
+  -	MechaChar_Challenge.R
+  -	MechaCar_mpg.csv
+  -	Suspension_Coil.csv
 
 ## Project Overview
 
