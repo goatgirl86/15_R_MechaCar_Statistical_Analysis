@@ -105,7 +105,7 @@ There are a few tests I would recommend:
 ### Test Two
 -	Metrics Tested - Vehicle Cost and Financing Rates by Competitor 
 -	Hypotheses - Null: No difference in average vehicle cost or financing rates between MechaCar and competitor(s), Alternate: There is a difference.
--	Statistical Test Performed - Two-Way ANOVA.  This test can compare multiple independent variables (in this case vehicle type and competitor). I like this test because it elaborates on Test One by adding financing to the equation.  
+-	Statistical Test Performed - Two-Way ANOVA.  This test can compare multiple independent variables (in this case financing rate and competitor). I like this test because it elaborates on Test One by adding financing to the equation.  
 -	Data Needed - Vehicle costs and financing rates from different competitors 
 
 ### Test Three
